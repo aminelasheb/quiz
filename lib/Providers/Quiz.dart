@@ -18,9 +18,7 @@ class Quiz extends ChangeNotifier {
   List<question> questionItems = [];
 
   Future<void> getQuestions() async {
-    print("doingIN1");
     String url = '${globals.ipv4}questions/';
-    print("doingIN2");
 
     try {
       final res = await http.get(
@@ -29,7 +27,6 @@ class Quiz extends ChangeNotifier {
           'Content-Type': 'application/json',
         },
       );
-      print("doingIN3");
 
       final result = await jsonDecode(utf8.decode(res.bodyBytes));
       print(result);
@@ -55,7 +52,6 @@ class Quiz extends ChangeNotifier {
         }
         i = i + 1;
       }
-      print("ss");
       notifyListeners();
       print("done");
     } catch (e) {

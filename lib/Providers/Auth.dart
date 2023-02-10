@@ -5,6 +5,7 @@ import 'package:quiz/globals.dart' as globals;
 
 class Auth extends ChangeNotifier {
   String message = "";
+
   Future<void> signUp(String email, String username, String password) async {
     String url = '${globals.ipv4}/users/';
 
