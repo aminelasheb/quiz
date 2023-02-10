@@ -19,7 +19,7 @@ class Quiz extends ChangeNotifier {
 
   Future<void> getQuestions() async {
     String url = '${globals.ipv4}questions/';
-
+    questionItems.clear();
     try {
       final res = await http.get(
         Uri.parse(url),

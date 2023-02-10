@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
               fontFamily: 'Gothic',
               primarySwatch: Colors.blueGrey,
             ),
-            home: quiz()),
+            home: authentificationUI()),
       ),
     );
   }

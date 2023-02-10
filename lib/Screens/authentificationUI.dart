@@ -75,7 +75,7 @@ class _authentificationUIState extends State<authentificationUI> {
                                 child: TextFormField(
                                   controller: _nameController,
                                   decoration: const InputDecoration(
-                                    icon: Icon(Icons.email),
+                                    icon: Icon(Icons.person),
                                     hintText: 'Write your name please',
                                     labelText: 'Name',
                                   ),
