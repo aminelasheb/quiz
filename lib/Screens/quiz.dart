@@ -43,8 +43,9 @@ class _quizState extends State<quiz> {
       body: _isLoading
           ? CircularProgressIndicator()
           : Container(
+              padding: EdgeInsets.symmetric(horizontal: sizee.width * 0.05),
               margin: EdgeInsets.symmetric(vertical: 50),
-              child: Column(children: [
+              child: ListView(children: [
                 SizedBox(
                   height: sizee.height * 0.1,
                 ),
