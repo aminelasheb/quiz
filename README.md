@@ -1,16 +1,17 @@
 # quiz
 
-A new Flutter project.
+Mobile application using FastAPI
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Run the server IngeFast, you will find it in my github
 
-A few resources to get you started if this is your first Flutter project:
+Change the ipv4 in global file, with the same ip hosted in 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Run the app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In auth, is avaible only register
+If you want to see the quiz app, just change the home path in main .
+
+- [Backend FastApi: IngeFast ]([https://docs.flutter.dev/get-started/codelab](https://github.com/aminelasheb/ingeFast))
+
